@@ -1,0 +1,8 @@
+# Not part of the site: the design brief, local tool state and notes.
+files/
+.playwright-mcp/
+.claude/
+.shipstudio/
+.mcp.json
+scripts/
+CLAUDE.md
