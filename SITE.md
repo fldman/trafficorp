@@ -86,11 +86,13 @@ Traffic control for road work across Idaho and Washington: flaggers, pilot cars,
 
 - **Address:** https://trafficorp-2026.vercel.app (Vercel project `trafficorp`, team `embedy`)
 - **Hidden from search engines** for now (a "noindex" setting); remove it in `app/layout.tsx` (`robots`) at launch.
-- **To publish changes:** run `vercel deploy --prod --scope embedy` in the project folder.
+- **Code:** GitHub repo `fldman/trafficorp` (branch `main`).
+- **To publish changes:** push to `main`; Vercel builds and deploys it automatically (or run `vercel deploy --prod --scope embedy` in the project folder).
 - Files that are never uploaded (the design brief, local tool folders) are listed in `.vercelignore`.
 
 ## Recent Changes
 
+- 2026-10-29: **Code on GitHub** (`fldman/trafficorp`), connected to Vercel: every push to `main` now goes live automatically.
 - 2026-10-29: **About opening photo:** replaced the snowy mountain road with a street work-zone photo (a worker in orange coveralls and hard hat walking past a barrier and drum while traffic keeps moving). An amber-sunset version of the old photo was tried first and dropped.
 - 2026-10-29: **Homepage, smart tech:** the big preview photo on computers now has a "Get a quote" link in its bottom-right corner; it does the same as clicking the device row on the left (opens the quote form with that service picked).
 - 2026-10-29: **Site is live** on Vercel at https://trafficorp-2026.vercel.app (hidden from search engines).
